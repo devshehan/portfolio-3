@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        jetbrains: ['var(--font-jetbrains-mono)', 'monospace'],
+      },
     },
   },
   plugins: [],
