@@ -46,39 +46,6 @@ const jobs = [
   },
 ];
 
-const blogs = [
-  {
-    id: 1,
-    title: "c# fundamentals",
-    date: "dec 2, 2024",
-  },
-  {
-    id: 2,
-    title: "setting up sprint boot 3 application as a gRPC client and server",
-    date: "aug 21, 2024",
-  },
-  {
-    id: 3,
-    title: "spring cloud config - dynamic file and class loading mechanism",
-    date: "jan 22, 2024"
-  },
-  {
-    id: 4,
-    title: "JVM architecture",
-    date : "jan 7, 2024"
-  },
-  {
-    id: 5,
-    title: "a thrilling diving into prometheus and grafana.",
-    date : "dec 3, 2023"
-  },
-  {
-    id: 6,
-    title: "s.o.l.i.d",
-    date: "sep 22, 2023"
-  },
-];
-
 export default function Home() {
   return (
     <div className="flex justify-center items-center">
@@ -113,7 +80,7 @@ export default function Home() {
           </p>
         </div>
 
-        <BlogSection blogs={blogs} />
+        <BlogSection/>
 
         <ProjectSection projects={projects}/>
 
